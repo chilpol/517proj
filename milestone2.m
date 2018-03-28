@@ -7,7 +7,7 @@
 CVMdl = fitrgp(bank,'y','crossval','on');
 L = kfoldLoss(CVMdl,'mode','individual')
 % negative log predictiv density 
-f = @nlpd(Y,Yfit,W);
+f = @nlpd;
 L_nlpd = kfoldLoss(CVMdl,'mode','individual','lossfun',f)
 % L =
 % 

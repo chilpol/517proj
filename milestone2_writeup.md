@@ -2,7 +2,7 @@
 
 ## How I used Gaussian Process Regression for Classification
 
-Since GPR is mainly used for regression, my loss calculation translate the predictions into binary classification and calculate the error from there.
+Since GPR is used for regression tasks, my loss calculation translate the predictions into binary classification and calculate the error from there. Since the labels are +1 and -1, the result 
 
 
 ## Raw data
